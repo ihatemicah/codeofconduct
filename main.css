@@ -1,0 +1,76 @@
+@font-face{
+  font-family:'Equip-Medium';src:url(https://static.ring.com/assets/2BA2B5_0_0-8d07acd133038275054cf636e7be929d.eot);
+  src:url(https://static.ring.com/assets/2BA2B5_0_0-8d07acd133038275054cf636e7be929d.eot?#iefix)
+  format("embedded-opentype"),url(https://static.ring.com/assets/2BA2B5_0_0-648d7e601e49013f05cdab96a9e554f9.woff)
+  format("woff"),url(https://static.ring.com/assets/2BA2B5_0_0-621b87178c3cb4dd6507cd404791de85.ttf)
+  format("truetype")
+}
+@font-face {
+  font-family:'Equip-Light';src:url(https://static.ring.com/assets/30DF1A_0_0-c4865ef5a8de8a032f362ca8cc865a1b.eot);
+  src:url(https://static.ring.com/assets/30DF1A_0_0-c4865ef5a8de8a032f362ca8cc865a1b.eot?#iefix)
+  format("embedded-opentype"),url(https://static.ring.com/assets/30DF1A_0_0-2fdf5018a9733d30e02786f6ef606b76.woff2)
+  format("woff2"),url(https://static.ring.com/assets/30DF1A_0_0-f4b441adfc3a10ccfc6d075e2b09c6b0.woff)
+  format("woff"),url(https://static.ring.com/assets/30DF1A_0_0-e8cf0461312a46730be1e44c66955e1c.ttf)
+  format("truetype"),url(https://static.ring.com/assets/30DF1A_0_0-34a0b807c4c3d878cf9df04a87ab08cb.svg#wf)
+  format("svg")
+}
+
+html, body {
+  overflow-x: hidden;
+  height:100%;
+  color: #464646;
+  background-color: #ececec;
+  margin: 0 ;
+  padding: 0 ;
+}
+
+h1 {
+  font-family:'Equip',sans-serif;
+  font-size: 16px;
+  color: #4990e2;
+  text-align: center;
+}
+h2 {
+  font-family: 'Equip-Regular',sans-serif;
+  font-size: 16px;
+  color: #757575;
+}
+p {
+  font-family: 'Equip-Light',sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color:#757575;
+  margin: 0 16px 0 16px;
+
+}
+
+a {
+  text-decoration: underline;
+  color: #009AD8;
+}
+
+.rectangle {
+  background-color: #fff;
+  width: 95%;
+  border-radius: 2px;
+  position: absolute;
+  /*margin-left:auto;
+  margin-right: auto;*/
+  margin: 4% auto 4% auto;
+  left: 0;
+  right: 0;
+}
+
+.header-container > p {
+  margin: 16px;
+}
+.rule-container {
+  margin: 24px 0 24px 0;
+}
+.rule-container > .col-xs-9 > h2 {
+  margin: 0 16px 4% 16px;
+
+}
+.rule-container > .col-xs-3 > img {
+  /*margin-left: 16px;*/
+}
