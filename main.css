@@ -72,5 +72,6 @@ a {
 
 }
 .rule-container > .col-xs-3 > img {
-  /*margin-left: 16px;*/
+  margin-left : 33%;
+  margin-top :24%;
 }
