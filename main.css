@@ -16,14 +16,14 @@
 }
 
 /* Equip Regular*/
+
 @font-face {
     font-family: 'Equip-Regular';
-    src: url(asset_path('2BBA9E_0_0.eot')) format('embedded-opentype'),
-         url(asset_path('2BBA9E_0_0.woff')) format('woff'),
-         url(asset_path('2BBA9E_0_0.ttf')) format('ttf');
+    src: url("//static.ring.com/assets/2BBA9E_0_0-da691f7cc7c31d280a9a95ddf200e496.eot") format("embedded-opentype"),url("//static.ring.com/assets/2BBA9E_0_0-f661e09018c68e3d1305750ec08a75a7.woff") format("woff"),url("//static.ring.com/assets/2BBA9E_0_0-67534dfa8210c5c1945281ce64713a45.ttf") format("ttf");
     font-weight: normal;
-    font-style: normal;
+    font-style: normal
 }
+
 
 html, body {
   overflow-x: hidden;
