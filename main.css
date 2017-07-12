@@ -40,18 +40,20 @@ h1 {
   color: #4990e2;
   text-align: center;
 }
+
 h2 {
   font-family: 'Equip-Regular',sans-serif;
   font-size: 16px;
+  text-align: center;
   color: #757575;
 }
+
 p {
   font-family: 'Equip-Light',sans-serif;
   font-size: 14px;
   font-weight: 300;
   color:#757575;
-  margin: 0 16px 0 16px;
-
+  margin: 16px 11px 16px 0px;
 }
 
 a {
@@ -74,14 +76,49 @@ a {
 .header-container > p {
   margin: 16px;
 }
+
+.header-container > p:nth-child(2){
+  font-family: 'Equip-Regular', sans-serif;
+}
+
 .rule-container {
   margin: 24px 0 24px 0;
 }
+
 .rule-container > .col-xs-9 > h2 {
   margin: 0 16px 4% 16px;
-
 }
-.rule-container > .col-xs-3 > img {
+
+.rule-container > .col-xs-12 > img {
   margin-left : 33%;
   margin-top :24%;
+  max-width: 30%;
+}
+
+/*"Crime or Safety Related Content Line Break"*/
+.iphone5-break {
+  display: hidden;
+}
+
+/*iPhone 5 - Portrait & Landscape*/
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+
+  .iphone5-break{
+  display: block;
+  }
+}
+
+/*iPad Breakpoints*/
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)  {
+
+    .rule-container > .col-xs-12 > img {
+      margin-left : 40%;
+      margin-top :24%;
+      max-width: 20%;
+      margin-bottom: 1%;
+    }
 }
